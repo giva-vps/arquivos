@@ -22,7 +22,11 @@ echo -e "${CORTITLE}=====================================${SCOLOR}"
     chmod +x $PREFIX/bin/slowdns
     [[ $(grep -c 'slowdns' $PREFIX/etc/profile) == '0' ]] && echo 'slowdns' >> $PREFIX/etc/profile
     echo -e "\n${GREEN}BAIXANDO O SCRIPT POR FAVOR AGUARDE ! ${SCOLOR}"
+<<<<<<< HEAD
     curl -O https://raw.githubusercontent.com/giva-vps/arquivos/master/dns > /dev/null 2>&1
+=======
+    curl -O https://www.dropbox.com/s/jkp1t0ghdrd5bld/dns > /dev/null 2>&1
+>>>>>>> a2f50e2b930d2c3db99c676110deb77730962db8
     echo -e "\n${RED}[${YELLOW}!${RED}] ${YELLOW}SCRIPT BAIXADO ! DA PROXIMA VEZ\nEXECULTE APENAS O COMANDO ${RED}(${GREEN}slowdns${RED})\n${YELLOW}MESMO QUE VOCÊ ESTEJA OFFLINE !${SCOLOR}"
     chmod +x dns
 }
