@@ -7,7 +7,7 @@ CORTITLE='\033[1;41m'
 SCOLOR='\033[0m'
 
 echo -e "${CORTITLE}=====================================${SCOLOR}" 
-echo -e "${CORTITLE}       CLIENTE SLOWDNS       ${SCOLOR}"
+echo -e "${CORTITLE}           CLIENTE SLOWDNS           ${SCOLOR}"
 echo -e "${CORTITLE}=====================================${SCOLOR}" 
 [[ ! -e dns ]] && {
     yes| termux-setup-storage > /dev/null 2>&1
